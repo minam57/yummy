@@ -1,0 +1,58 @@
+body {
+  background-color: #0d0d0d;
+}
+
+i,
+.inner-main {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  padding-block: 8px;
+  cursor: pointer;
+}
+
+.all-nav {
+  top: 0;
+  bottom: 0;
+  width: 322px;
+  z-index: 9999;
+}
+
+.nav-details {
+  background-color: #0d0d0d;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #f9f6f6ca;
+  z-index: 1;
+  top: 100%;
+  transition: top 500ms;
+}
+
+.inner-main:hover .overlay {
+  top: 0px;
+}
+
+.form-1,
+.form-1:focus {
+  background-color: transparent;
+  color: #bfc3c8;
+}
+
+.form-1::placeholder {
+  color: #bfc3c8;
+}
+
+.submit {
+  width: fit-content;
+}
+
+.contact-row {
+  margin-top: 150px;
+  margin-inline: auto;
+}

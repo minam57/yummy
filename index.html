@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="icon" href="./imgs/logo.png" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <!-- * Side Navbar -->
+    <div class="all-nav d-flex position-fixed">
+      <div
+        class="nav-details d-flex flex-column text-light justify-content-between p-4 pe-2"
+      >
+        <ul class="p-0">
+          <li id="search">Search</li>
+          <li id="categories">Categories</li>
+          <li id="area">Area</li>
+          <li id="ingredients">Ingredients</li>
+          <li id="contact">Contact Us</li>
+        </ul>
+        <div>
+          <div class="d-flex gap-1 mb-1">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <p>Copyright Â© 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+      <div
+        class="nav-tab d-flex flex-column justify-content-between align-items-center py-4 bg-light px-2"
+      >
+        <img src="./imgs/logo.png" width="50" />
+        <div>
+          <i class="fa-solid fa-bars fa-2x open-menu"></i
+          ><i class="fa-solid fa-x fa-2x d-none close-menu"></i>
+        </div>
+        <div class="d-flex flex-column gap-1 py-1 align-items-center">
+          <i class="fa-solid fa-globe"></i
+          ><i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+    </div>
+    <!-- * Main Body -->
+    <main class="min-vh-100 ps-5 py-4">
+      <div class="container">
+        <div class="row row-search"></div>
+        <div class="row main-row g-4 py-4 px-3"></div>
+        <div class="contact-row row g-3 w-75"></div>
+        <div class="row ing-row g-4 py-4 px-3"></div>
+      </div>
+    </main>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
